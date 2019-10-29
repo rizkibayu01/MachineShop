@@ -12,7 +12,7 @@ export class AuthService {
       this.router.navigateByUrl('home');
     });
   }
-  login(form){
+   login(form){
     this.authService.login(form.value).subscribe((res)=>{
       this.router.navigateByUrl('home');
     });
